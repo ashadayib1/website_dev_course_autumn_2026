@@ -128,3 +128,9 @@ input[type="text"], input[type="email"] {
         top: 0;
         color: black;
       }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
+      }
