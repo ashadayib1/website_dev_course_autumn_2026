@@ -134,3 +134,11 @@ input[type="text"], input[type="email"] {
         grid-template-columns: repeat(3,1fr);
         grid-gap: 10px;
       }
+
+      .grid-item {
+        background-color: lightgreen;
+        padding: 20px;
+        text-align: center;
+      }
+
+      
