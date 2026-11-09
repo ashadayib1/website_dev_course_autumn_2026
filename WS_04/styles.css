@@ -141,4 +141,9 @@ input[type="text"], input[type="email"] {
         text-align: center;
       }
 
+      .responsive-box {
+        padding: 20px;
+        text-align: center;
+      }
+
       
