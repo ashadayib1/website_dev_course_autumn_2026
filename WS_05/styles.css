@@ -208,3 +208,18 @@ input[type="text"], input[type="email"] {
       }
     }
 
+    .responsive-nav .nav-list {
+      display: flex;
+      list-style: none;
+    }
+    
+    @media (max-width: 600px) {
+      .responsive-nav .nav-list {
+        display: none;
+      }
+    
+      .responsive-nav .menu-toggle {
+        display: block;
+      }
+    }
+
